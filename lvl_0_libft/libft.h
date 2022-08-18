@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/14 01:35:12 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/16 22:23:30 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/08/18 01:00:20 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,7 @@ int	ft_memcmp(const void *str1, const void *str2, size_t n);
 char	*ft_strnstr(const char *big, const char *little, size_t len);
 int	ft_atoi(const char *str);
 void	*ft_calloc(size_t nitems, size_t size);
+char	*ft_strdup(const char *s);
 
 void	ft_putchar_fd(char c, int fd);
 
