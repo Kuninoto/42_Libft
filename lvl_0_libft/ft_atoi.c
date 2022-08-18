@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/15 23:47:01 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/16 01:01:48 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/08/18 02:09:46 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 int	ft_atoi(const char *str)
 {
 	long long	final_int;
-	int	signal;
-	int	i;
+	int			signal;
+	int			i;
 
 	signal = 1;
 	i = 1;

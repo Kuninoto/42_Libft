@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/14 01:35:12 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/18 01:00:20 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/08/18 01:50:40 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,7 @@ char	*ft_strnstr(const char *big, const char *little, size_t len);
 int	ft_atoi(const char *str);
 void	*ft_calloc(size_t nitems, size_t size);
 char	*ft_strdup(const char *s);
+char	*ft_substr(char const *s, unsigned int start, size_t len);
 
 void	ft_putchar_fd(char c, int fd);
 
