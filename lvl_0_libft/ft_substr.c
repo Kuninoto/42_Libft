@@ -1,33 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strdup.c                                        :+:      :+:    :+:   */
+/*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/08/18 00:47:52 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/18 02:11:40 by nnuno-ca         ###   ########.fr       */
+/*   Created: 2022/08/18 01:23:22 by nnuno-ca          #+#    #+#             */
+/*   Updated: 2022/08/18 02:10:12 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strdup(const char *s)
+char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
-	size_t			len;
+	char			*sub_str;
 	unsigned int	i;
-	char			*dup_s;
 
-	len = ft_strlen(s);
-	dup_s = malloc((len + 1) * sizeof(char));
-	if (dup_s == NULL)
+	if (*s == '\0')
+		return (NULL);
+	sub_str = malloc((len + 1) * sizeof(char));
+	if (sub_str == NULL)
 		return (NULL);
 	i = 0;
-	while (s[i] != '\0')
+	while (i < len)
 	{
-		dup_s[i] = s[i];
+		sub_str[i] = s[start];
+		start++;
 		i++;
 	}
-	dup_s[i] = '\0';
-	return (dup_s);
+	sub_str[i] = '\0';
+	return (sub_str);
 }
