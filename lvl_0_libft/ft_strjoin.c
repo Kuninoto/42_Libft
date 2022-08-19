@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/18 23:09:37 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/18 23:42:03 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/08/18 23:56:57 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 
 	len_s1 = ft_strlen(s1);
 	len_s2 = ft_strlen(s2);
-	final_str = malloc((len_s1 + len_s2) * sizeof(char));
+	final_str = malloc((len_s1 + len_s2 + 1) * sizeof(char));
 	i = 0;
 	j = 0;
 	if (final_str == NULL)
