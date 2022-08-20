@@ -6,13 +6,13 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/18 23:51:37 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/20 01:08:12 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/08/20 01:57:35 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strncpy(char *dest, const char *src, size_t n)
+static char	*ft_strncpy(char *dest, const char *src, size_t n)
 {
 	size_t	i;
 
@@ -30,6 +30,7 @@ char	*ft_strncpy(char *dest, const char *src, size_t n)
 			i++;
 		}
 	}
+	dest[i] = '\0';
 	return (dest);
 }
 

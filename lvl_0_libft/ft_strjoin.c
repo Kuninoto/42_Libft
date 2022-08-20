@@ -6,24 +6,11 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/18 23:09:37 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/18 23:56:57 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/08/20 01:51:21 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-/*
-char	*strjoin_s1(char const *s1)
-{
-	size_t	len_s1;
-	len_s1 = ft_strlen(s1);
-}
-
-char	*strjoin_s2(char const *s2)
-{
-
-}
-*/
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {
