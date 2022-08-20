@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/14 01:35:12 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/19 02:55:16 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/08/20 01:56:42 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,8 +41,12 @@ void	*ft_calloc(size_t nitems, size_t size);
 char	*ft_strdup(const char *s);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strjoin(char const *s1, char const *s2);
-char	*ft_strtrim(char const *s1, char const *set);
+char	*ft_strtrim(char const *s1, char const *set); // uses ft_strncpy extra
+char	**ft_split(char const *s, char c); // uses ft_strncpy extra
 
 void	ft_putchar_fd(char c, int fd);
+
+// char	*ft_strncpy(char *dest, const char *src, size_t n); 
+//copies src until n to dest, null terminating dest. if src acabe e n ainda não, null byte para preencher;
 
 #endif
