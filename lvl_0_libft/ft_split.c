@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/20 01:10:01 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/21 02:41:26 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/08/21 02:46:00 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,9 +56,3 @@ char	**ft_split(char const *s, char c)
 	matrix[lines] = NULL;
 	return (matrix);
 }
-
-/*
-CODE DOCUMENTATION
-
-
-*/
