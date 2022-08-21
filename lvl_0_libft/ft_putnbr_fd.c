@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/21 19:07:03 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/21 23:52:39 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/08/21 23:59:17 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ void	ft_putnbr_fd(int n, int fd)
 	if (n < 10)
 	{
 		ft_putchar_fd((n + '0'), fd);
-		return ; 
+		return ;
 	}
 	ft_putnbr_fd((n / 10), fd);
 	ft_putchar_fd((n % 10 + '0'), fd);
