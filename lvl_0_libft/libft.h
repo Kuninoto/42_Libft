@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/14 01:35:12 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/21 18:23:16 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/08/21 18:35:52 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,8 +46,8 @@ char	**ft_split(char const *s, char c);
 char	*ft_itoa(int n);
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 void	ft_striteri(char *s, void (*f)(unsigned int, char*));
-
 void	ft_putchar_fd(char c, int fd);
+
 
 // static	char	*ft_strncpy(char *dest, const char *src, size_t n); 
 //copies src until n to dest, null terminating dest. if src acabe e n ainda não, null byte para preencher;
