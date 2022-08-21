@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/18 23:09:37 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/21 02:43:10 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/08/21 02:45:58 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,9 +43,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	final_str[i] = '\0';
 	return (final_str);
 }
-
-/*
-CODE DOCUMENTATION
-
-
-*/
