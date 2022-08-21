@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/14 01:35:12 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/20 23:56:53 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/08/21 02:54:04 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strtrim(char const *s1, char const *set); // uses ft_strncpy extra
 char	**ft_split(char const *s, char c); // uses ft_strncpy extra
+char	*ft_itoa(int n);
 
 void	ft_putchar_fd(char c, int fd);
 
