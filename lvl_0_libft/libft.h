@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/14 01:35:12 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/21 18:53:01 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/08/21 19:06:04 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,8 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*)); // NÃO TÁ NO SUBJEC
 
 void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
-
+void	ft_putendl_fd(char *s, int fd);
+void	ft_putnbr_fd(int n, int fd);
 
 // static	char	*ft_strncpy(char *dest, const char *src, size_t n); 
 //copies src until n to dest, null terminating dest. if src acabe e n ainda não, null byte para preencher;
