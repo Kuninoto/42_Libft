@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/14 01:35:12 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/21 18:35:52 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/08/21 18:53:01 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,8 +45,11 @@ char	*ft_strtrim(char const *s1, char const *set); // uses ft_strncpy extra
 char	**ft_split(char const *s, char c);
 char	*ft_itoa(int n);
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
-void	ft_striteri(char *s, void (*f)(unsigned int, char*));
+
+void	ft_striteri(char *s, void (*f)(unsigned int, char*)); // NÃO TÁ NO SUBJECT DO OBRIEN NEM NOS TESTES CHECKAR ISTO.
+
 void	ft_putchar_fd(char c, int fd);
+void	ft_putstr_fd(char *s, int fd);
 
 
 // static	char	*ft_strncpy(char *dest, const char *src, size_t n); 
