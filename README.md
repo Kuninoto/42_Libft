@@ -6,16 +6,16 @@
 
 ### Installing and running the project:
 
-	1- Clone this repository
+1- Clone this repository
 	
-		git clone https://github.com/Kuninoto/Libft
-	2- `cd` `make`
+	git clone https://github.com/Kuninoto/Libft
+2- `cd` into `Libft` and run `make`
 	
-		cd
-    	make
-	3- Compile your main.c with `libft.a`
+	cd Libft
+   	make
+3- Compile your main.c with `libft.a`
   
-    gcc -Wall -Wextra -Werror main.c libft.a
+   gcc -Wall -Wextra -Werror main.c libft.a
 
 ###  Tests:  
 [libft-unit-test](https://github.com/alelievr/libft-unit-test)  
