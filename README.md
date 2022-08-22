@@ -1,4 +1,4 @@
-# Libft (42Porto - Common-core)  
+# Libft (42Porto - 42Cursus)  
 # Grade:
 
 # Subject:
