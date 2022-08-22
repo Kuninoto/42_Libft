@@ -1,12 +1,10 @@
 # Libft (42Porto - 42Cursus)  
 ## Grade:
 
-### Subject:
+###  Subject:
 [Libft En_Subject](https://github.com/Kuninoto/Libft/blob/master/extras/en.subject_libft.pdf)
 
-### Bonus Functions that I've did:
-
-### Tests:  
+###  Tests:  
 [libft-unit-test](https://github.com/alelievr/libft-unit-test)  
 [Libftest](https://github.com/jtoty/Libftest)
 
