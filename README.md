@@ -13,13 +13,16 @@
 	
 	cd Libft/lvl_0_libft
    	make
-3- `make clean` to delete all the resulting object files 
-(they are already inside our libft.a, run `ar -t libft.a` to see them all)
-
-	make clean
-4- Compile your main.c with your new `libft.a`
+3- Compile your main.c with your new `libft.a`
 
 	gcc -Wall -Wextra -Werror main.c libft.a
+
+#### Makefile Available Targets:  
+`make` or `make all - Makes libft.a 
+`make bonus` - Makes libft.a with bonus functions (see [Subject](https://github.com/Kuninoto/Libft/blob/master/extras/en.subject_libft.pdf))  
+`make clean` - Deletes all the resulting object files (they are already inside our _libft.a_, run `ar -t libft.a` to see them all)  
+`make fclean` - Deletes libft.a and all the resulting object files  
+`make re` - Does exactly the same as fclean xD  
 
 ###  Tests:
 <img align="right" src="(https://github.com/Kuninoto/Libft/blob/master/extras/Tests)" width="50%"/>
