@@ -6,12 +6,13 @@
 #    By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/22 19:35:50 by nnuno-ca          #+#    #+#              #
-#    Updated: 2022/08/22 19:40:41 by nnuno-ca         ###   ########.fr        #
+#    Updated: 2022/08/22 20:14:03 by nnuno-ca         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
+RM = rm -rf
 NAME = libft.a
 
 LIB_SRCS = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c ft_strlen.c ft_memset.c ft_bzero.c ft_memcpy.c\
@@ -29,9 +30,9 @@ $(NAME): $(LIB_OBJS)
 	ar rc $(NAME) $(LIB_OBJS)
 
 clean:
-	rm -rf $(LIB_OBJS) $(BONUS_OBJS) 
+	$(RM) $(LIB_OBJS) $(BONUS_OBJS) 
 fclean: clean
-	rm -rf $(NAME)
-re:
+	$(RM) $(NAME)
+re: fclean all
 bonus: $(LIB_OBJS) $(BONUS_OBJS)
 	ar rc $(NAME) $(LIB_OBJS) $(BONUS_OBJS)
