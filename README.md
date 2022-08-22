@@ -22,7 +22,7 @@
 `make bonus` - Makes _libft.a_ with bonus functions (see [Subject](https://github.com/Kuninoto/Libft/blob/master/extras/en.subject_libft.pdf))  
 `make clean` - Deletes all the resulting object files  
 `make fclean` - Deletes _libft.a_ and all the resulting object files  
-`make re` - Does exactly the same as fclean xD
+`make re` - Deletes everything and rebuilds everything
 #### Adding new functions to this library:
   - Add their protoypes to _libft.h_
   - Add their sources to "LIB_SRCS" variable inside the Makefile   
