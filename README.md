@@ -14,8 +14,8 @@
 	cd Libft/lvl_0_libft
    	make
 3- Compile your main.c with your new `libft.a`
-  
-   gcc -Wall -Wextra -Werror main.c libft.a
+
+	gcc -Wall -Wextra -Werror main.c libft.a
 
 ###  Tests:  
 [libft-unit-test](https://github.com/alelievr/libft-unit-test)  
