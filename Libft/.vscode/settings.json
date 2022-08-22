@@ -1,7 +1,0 @@
-{
-	"makefile.extensionOutputFolder": "./.vscode",
-	"files.associations": {
-		"libft.h": "c",
-		"stdio.h": "c"
-	}
-}
