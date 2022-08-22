@@ -9,20 +9,24 @@
 1- Clone this repository
 	
 	git clone https://github.com/Kuninoto/Libft
-2- `cd` into `lvl_0_libft` and run `make`
+2- `cd` into _lvl_0_libft_ and run `make`
 	
 	cd Libft/lvl_0_libft
    	make
-3- Compile your main.c with your new `libft.a`
+3- Compile your main.c with your new _libft.a_
 
 	gcc -Wall -Wextra -Werror main.c libft.a
 
 #### Makefile Available Targets:  
-`make` or `make all - Makes libft.a 
-`make bonus` - Makes libft.a with bonus functions (see [Subject](https://github.com/Kuninoto/Libft/blob/master/extras/en.subject_libft.pdf))  
-`make clean` - Deletes all the resulting object files (they are already inside our _libft.a_, run `ar -t libft.a` to see them all)  
-`make fclean` - Deletes libft.a and all the resulting object files  
-`make re` - Does exactly the same as fclean xD  
+`make` or `make all` - Makes libft.a  
+`make bonus` - Makes _libft.a_ with bonus functions (see [Subject](https://github.com/Kuninoto/Libft/blob/master/extras/en.subject_libft.pdf))  
+`make clean` - Deletes all the resulting object files  
+`make fclean` - Deletes _libft.a_ and all the resulting object files  
+`make re` - Does exactly the same as fclean xD
+#### Adding new functions to this library:
+  - Add their protoypes to _libft.h_
+  - Add their sources to "LIB_SRCS" variable inside the Makefile   
+##### To keep track of what's inside your resulting _libft.a_ run: `ar -t libft.a`   
 
 ###  Tests:
 <img align="right" src="(https://github.com/Kuninoto/Libft/blob/master/extras/Tests)" width="50%"/>
