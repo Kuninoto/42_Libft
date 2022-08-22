@@ -1,4 +1,4 @@
-# Libft (42Porto - 42Cursus)  
+# Libft (42Porto - 42Cursus) ![42_Logo](https://github.com/Kuninoto/Libft/blob/master/extras/42_Logo.jpeg)
 ## Grade:
 
 ###  Subject:
