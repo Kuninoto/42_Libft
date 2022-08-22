@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/14 23:33:27 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/14 23:50:57 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/08/22 00:57:12 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,7 @@ void	*ft_memchr(const void *str, int c, size_t n)
 	{
 		if (conv_str[i] == (unsigned char)c)
 			return (conv_str + i);
+		i++;
 	}
 	return (NULL);
 }
