@@ -9,11 +9,11 @@
 1- Clone this repository
 	
 	git clone https://github.com/Kuninoto/Libft
-2- `cd` into `Libft` and run `make`
+2- `cd` into `lvl_0_libft` and run `make`
 	
-	cd Libft
+	cd Libft/lvl_0_libft
    	make
-3- Compile your main.c with `libft.a`
+3- Compile your main.c with your new `libft.a`
   
    gcc -Wall -Wextra -Werror main.c libft.a
 
