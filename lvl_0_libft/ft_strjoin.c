@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/18 23:09:37 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/21 02:45:58 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/08/24 00:42:40 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,18 +28,10 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	if (final_str == NULL)
 		return (NULL);
 	while (j < len_s1)
-	{
-		final_str[i] = s1[j];
-		i++;
-		j++;
-	}
+		final_str[i++] = s1[j++];
 	j = 0;
 	while (j < len_s2)
-	{
-		final_str[i] = s2[j];
-		i++;
-		j++;
-	}
+		final_str[i++] = s2[j++];
 	final_str[i] = '\0';
 	return (final_str);
 }
