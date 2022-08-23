@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/15 23:47:01 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/18 02:09:46 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/08/23 01:26:56 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,4 +33,3 @@ int	ft_atoi(const char *str)
 	}
 	return ((final_int * signal));
 }
-// Pega numa string de numeros e transforma em int;
