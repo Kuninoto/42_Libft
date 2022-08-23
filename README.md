@@ -13,7 +13,10 @@
 	
 	cd Libft/lvl_0_libft
    	make
-3- Compile your main.c with your new _libft.a_
+3- `make clean` so that you don't keep those object files that you won't need anymore
+
+	make clean
+4- Compile your main.c with your new _libft.a_
 
 	gcc -Wall -Wextra -Werror main.c libft.a
 
