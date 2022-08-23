@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/21 18:22:08 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/22 18:15:17 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/08/23 15:08:34 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		return ;
 	while (s[i])
 	{
-		f(i, s);
+		(*f)(i, s);
 		i++;
 	}
 }
