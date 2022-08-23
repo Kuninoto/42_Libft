@@ -29,7 +29,7 @@
 #### Adding new functions to this library:
   - Add their protoypes to _libft.h_
   - Add their sources to "LIB_SRCS" variable inside the Makefile   
-##### To keep track of what's inside your resulting _libft.a_ run: `ar -t libft.a`   
+##### To keep track of what's inside your resulting _libft.a_ run `ar -t libft.a`   
 
 ###  Tests:
 <img align="right" src="(https://github.com/Kuninoto/Libft/blob/master/extras/Tests)" width="50%"/>
