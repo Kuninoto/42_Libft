@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/22 20:22:43 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/22 21:57:13 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/08/27 19:21:46 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,10 @@
 
 t_list	*ft_lstnew(void *content)
 {
-	
+	t_list	*new_node;
+
+	new_node = malloc(sizeof(t_list));
+	new_node->content = content;
+	new_node->next = NULL;
+	return (new_node);
 }
