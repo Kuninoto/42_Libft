@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/14 01:35:12 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/22 00:29:39 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/08/27 19:17:20 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,8 +55,8 @@ void		ft_putnbr_fd(int n, int fd);
 
 typedef struct s_list
 {
-	void			*context;
-	struct s_list	*next;
+	void			*content; // The data contained in the node;
+	struct s_list	*next; // the adress of the next node;
 }					t_list;
 
 t_list	*ft_lstnew(void *content);
