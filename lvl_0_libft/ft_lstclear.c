@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/28 00:30:16 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/28 01:32:16 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/08/28 01:42:31 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
 	t_list	*temp;
 	t_list	*next_node;
-	
+
 	if (!lst)
 		return ;
 	temp = *lst;
