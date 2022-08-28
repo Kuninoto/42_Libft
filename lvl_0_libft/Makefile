@@ -6,7 +6,7 @@
 #    By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/22 19:35:50 by nnuno-ca          #+#    #+#              #
-#    Updated: 2022/08/27 23:11:08 by nnuno-ca         ###   ########.fr        #
+#    Updated: 2022/08/28 03:59:38 by nnuno-ca         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,7 +22,7 @@ LIB_SRCS = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c ft_s
 LIB_OBJS =  $(LIB_SRCS:.c=.o)
 
 BONUS_SRCS = ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c ft_lstadd_back.c ft_lstdelone.c ft_lstclear.c ft_lstiter.c ft_lstmap.c
-BONUS_OBJS = $(BONUS:.c=.o)
+BONUS_OBJS = $(BONUS_SRCS:.c=.o)
 
 all: $(NAME)
 
@@ -30,7 +30,7 @@ $(NAME): $(LIB_OBJS)
 	ar rc $(NAME) $(LIB_OBJS)
 	
 bonus: $(LIB_OBJS) $(BONUS_OBJS)
-	ar rc $(NAME) $(LIB_OBJS) $(BONUS_OBJS)
+	ar rc $(NAME)	$(BONUS_OBJS)
 
 clean:
 	$(RM) $(LIB_OBJS) $(BONUS_OBJS) 
