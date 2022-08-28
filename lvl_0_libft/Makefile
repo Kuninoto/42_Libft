@@ -6,7 +6,7 @@
 #    By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/22 19:35:50 by nnuno-ca          #+#    #+#              #
-#    Updated: 2022/08/28 03:59:38 by nnuno-ca         ###   ########.fr        #
+#    Updated: 2022/08/28 04:02:21 by nnuno-ca         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,7 +30,7 @@ $(NAME): $(LIB_OBJS)
 	ar rc $(NAME) $(LIB_OBJS)
 	
 bonus: $(LIB_OBJS) $(BONUS_OBJS)
-	ar rc $(NAME)	$(BONUS_OBJS)
+	ar rc $(NAME) $(LIB_OBJS) $(BONUS_OBJS)
 
 clean:
 	$(RM) $(LIB_OBJS) $(BONUS_OBJS) 
