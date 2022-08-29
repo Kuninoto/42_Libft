@@ -32,6 +32,6 @@
 ##### To keep track of what's inside your resulting _libft.a_ run `ar -t libft.a`   
 
 ###  Tests:
-<img align="right" src="https://github.com/Kuninoto/Libft/blob/master/extras/Tests.xcf" width="50%"/>
+<img align="right" src="https://github.com/Kuninoto/Libft/blob/master/extras/Tests.png" width="50%"/>
  
 [libft-war-machine](https://github.com/y3ll0w42/libft-war-machine)  
