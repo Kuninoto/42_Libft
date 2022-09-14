@@ -28,7 +28,8 @@
 `make re` - Deletes everything (object files and _libft.a_) and rebuilds _libft.a_
 #### Adding new functions to this library:
   - Add their prototypes to _libft.h_
-  - Add their sources to "LIB_SRCS" variable inside the Makefile   
+  - Add their source files to _lvl_0_libft_
+  - Add their source file names to "LIB_SRCS" variable inside the Makefile   
 ##### To keep track of what's inside your resulting _libft.a_ run `ar -t libft.a`   
 
 ###  Tests: 
