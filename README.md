@@ -21,7 +21,7 @@
 	gcc -Wall -Wextra -Werror main.c libft.a
 
 #### Makefile Available Targets:  
-`make` or `make all` - Makes libft.a  
+`make` or `make all` - Makes _libft.a_  
 `make bonus` - Makes _libft.a_ with bonus functions (see [Subject](https://github.com/Kuninoto/Libft/blob/master/extras/en.subject_libft.pdf))  
 `make clean` - Deletes all the resulting object files  
 `make fclean` - Deletes _libft.a_ and all the resulting object files  
