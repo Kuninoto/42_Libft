@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/18 23:51:37 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/20 01:57:35 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/09/25 01:34:20 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,12 +46,9 @@ char	*ft_strtrim(char const *s1, char const *set)
 	while (s1[beg] != '\0' && ft_strchr(set, s1[beg]) != NULL)
 		beg++;
 	end = ft_strlen (s1 + beg);
-	if (end != '\0')
-	{
-		while (s1[beg + end - 1] != '\0' && ft_strchr(set, s1[beg + end - 1])
-			!= NULL)
-			end--;
-	}
+	while (s1[beg + end - 1] != '\0' && ft_strchr(set, s1[beg + end - 1])
+		!= NULL)
+		end--;
 	trimmed_str = malloc(end + 1 * sizeof(char));
 	if (trimmed_str == NULL)
 		return (NULL);
