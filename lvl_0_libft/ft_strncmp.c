@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/14 23:11:48 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/23 02:59:43 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/10/02 02:27:56 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,5 +26,5 @@ int	ft_strncmp(const char *str1, const char *str2, size_t n)
 		i++;
 		len--;
 	}
-	return ((unsigned char )str1[i] - (unsigned char)str2[i]);
+	return ((unsigned char)str1[i] - (unsigned char)str2[i]);
 }
