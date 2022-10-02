@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/28 17:02:49 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/29 00:48:10 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/10/02 01:55:10 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ static size_t	ft_nr_strs(char const *s, char c)
 	i = 0;
 	while (s[i])
 	{
-		if (s[i] != c && !new_str)
+		if (s[i] != c && new_str == 0)
 		{
 			new_str = 1;
 			nr_strs++;
