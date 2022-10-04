@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/28 01:46:20 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/08/28 04:14:32 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/10/04 22:19:09 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	t_list	*head_node;
 	t_list	*current_node;
 
-	if (!lst || !f)
+	if (!lst || !f || !del)
 		return (NULL);
 	head_node = ft_lstnew(f(lst->content));
 	if (head_node == NULL)
