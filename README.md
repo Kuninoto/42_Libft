@@ -1,4 +1,4 @@
-# Libft (42Porto - 42Cursus)                        
+# Libft (42Porto - 42Cursus) <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C Logo" width="40" height="50" align="right" />&nbsp;                       
 ## Grade: ?/100
 
 ###  Subject:
@@ -9,7 +9,7 @@
 1- Clone this repository
 	
 	git clone https://github.com/Kuninoto/Libft
-2- `cd` into _lvl_0_libft_ and run `make`
+2- Navigate to _lvl_0_libft_ and run `make`
 	
 	cd Libft/lvl_0_libft
    	make
@@ -36,3 +36,6 @@
 [libft-war-machine](https://github.com/y3ll0w42/libft-war-machine)  
   
 <img src="https://github.com/Kuninoto/Libft/blob/master/extras/Tests.png" width="50%"/>
+
+---
+Made by Kuninoto: nnuno-ca@student.42porto.com | LinkedIn: [Nuno Carvalho](https://www.linkedin.com/in/nuno-carvalho-218822247)
