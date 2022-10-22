@@ -1,4 +1,4 @@
-# Libft (42Porto - 42Cursus) <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C Logo" width="40" height="50" align="right" />&nbsp;                       
+# Libft (42Porto - 42Cursus) <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C Logo" width="60" height="60" align="right" />&nbsp;                       
 ## Grade: ?/100
 
 ###  Subject:
