@@ -3,70 +3,78 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nnuno-ca <nnuno-ca@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nnuno-ca <nnuno-ca@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/28 17:02:49 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/11/02 21:30:19 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/11/03 01:01:42 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
-
-static size_t	ft_strlen_delim(char const *str, char delim)
-{
-	int	i;
-
-	i = 0;
-	while (str[i] && str[i] != delim)
-		i++;
-	return (i);
-}
 
 static size_t	ft_nr_strs(char const *s, char c)
 {
+	size_t	nr_strs;
+	size_t	new_str;
 	size_t	i;
-	size_t	n;
-	size_t	len;
 
+	nr_strs = 0;
 	i = 0;
-	n = 0;
 	while (s[i])
 	{
-		while (s[i] == c)
-			i++;
-		len = ft_strlen_delim(&s[i], c);
-		i += len;
-		if (len > 0)
-			n++;
+		if (s[i] != c && new_str == 0)
+		{
+			new_str = 1;
+			nr_strs++;
+		}
+		else if (s[i] == c)
+			new_str = 0;
+		i++;
 	}
-	return (n);
+	return (nr_strs);
+}
+
+static char	**matrix_writtin(char const *s, char c, char **matrix, size_t s_len)
+{
+	size_t	i;
+	size_t	lines;
+	size_t	line_len;
+
+	i = 0;
+	lines = 0;
+	line_len = 0;
+	while (i < (s_len + 1))
+	{
+		if (s[i] == c || !s[i])
+		{
+			if (line_len > 0)
+			{
+				matrix[lines] = malloc((line_len + 1) * sizeof(char));
+				if (matrix[lines] != NULL)
+					ft_strlcpy(matrix[lines], &s[i - line_len], line_len + 1);
+				line_len = 0;
+				lines++;
+			}
+		}
+		else
+			line_len++;
+		i++;
+	}
+	return (matrix);
 }
 
 char	**ft_split(char const *s, char c)
 {
-	size_t	i;
-	size_t	j;
-	size_t	len;
-	char	**matrix;
+	size_t			nr_strs;
+	char			**matrix;
 
-	i = 0;
-	j = 0;
 	if (!s)
 		return (NULL);
-	matrix = malloc((ft_nr_strs(s, c) + 1) * sizeof(char *));
+	nr_strs = ft_nr_strs(s, c);
+	matrix = malloc((nr_strs + 1) * sizeof(char *));
 	if (!matrix)
 		return (NULL);
-	while (s[i])
-	{
-		while (s[i] == c)
-			i++;
-		len = ft_strlen_delim(&s[i], c);
-		if (len > 0)
-			matrix[j] = ft_substr(s, i, len);
-		i += len;
-		j++;
-	}
-	matrix[j] = NULL;
+	matrix_writtin(s, c, matrix, ft_strlen(s));
+	matrix[nr_strs] = NULL;
 	return (matrix);
 }
