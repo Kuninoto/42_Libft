@@ -6,7 +6,7 @@
 /*   By: nnuno-ca <nnuno-ca@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/18 23:51:37 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/11/04 00:47:06 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/11/04 17:52:08 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 	size_t	end;
 	char	*trimmed_str;
 
-	if (!*s1 || !*set)
+	if (!s1 || !set)
 		return (NULL);
 	beg = 0;
 	while (s1[beg] != '\0' && ft_strchr(set, s1[beg]) != NULL)
