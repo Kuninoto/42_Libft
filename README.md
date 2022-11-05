@@ -35,7 +35,12 @@
 ###  Tests: 
 [libft-war-machine](https://github.com/y3ll0w42/libft-war-machine)  
   
-<img src="https://github.com/Kuninoto/Libft/blob/master/extras/Tests.png" width="50%"/>
+<img src="https://github.com/Kuninoto/Libft/blob/master/extras/war-machine.png" width="50%"/>
+
+[libft-unit-test](https://github.com/alelievr/libft-unit-test)
+<img src="https://github.com/Kuninoto/Libft/blob/master/extras/unit-test_first-part.png" width="50%"/>
+<img src="https://github.com/Kuninoto/Libft/blob/master/extras/unit-test_second-part.png" width="50%"/>
+<img src="https://github.com/Kuninoto/Libft/blob/master/extras/unit-test_bonus-part.png" width="50%"/>
 
 ---
 Made by Nuno Carvalho (Kuninoto) | nnuno-ca@student.42porto.com  
