@@ -34,7 +34,6 @@
 
 ###  Tests: 
 [libft-war-machine](https://github.com/y3ll0w42/libft-war-machine)  
-  
 <img src="https://github.com/Kuninoto/Libft/blob/master/extras/war-machine.png" width="50%"/>
 
 [libft-unit-test](https://github.com/alelievr/libft-unit-test)  
