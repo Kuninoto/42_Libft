@@ -6,18 +6,18 @@
 /*   By: nnuno-ca <nnuno-ca@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/18 01:23:22 by nnuno-ca          #+#    #+#             */
-/*   Updated: 2022/11/04 17:37:33 by nnuno-ca         ###   ########.fr       */
+/*   Updated: 2022/11/04 23:58:50 by nnuno-ca         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
+ 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	char			*sub_str;
 	unsigned int	i;
 
-	if (!*s)
+	if (!s)
 		return (NULL);
 	if (start > ft_strlen(s))
 	{
