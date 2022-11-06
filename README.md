@@ -1,5 +1,5 @@
 # Libft (42Porto - 42Cursus) <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C Logo" width="55" height="55" align="right" />&nbsp;                       
-## Grade: ?/100
+## Grade: 125/100
 
 ###  Subject:
 [Libft En_Subject](https://github.com/Kuninoto/Libft/blob/master/extras/en.subject_libft.pdf)
