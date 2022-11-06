@@ -23,9 +23,7 @@ size_t	ft_strlcat(char *dest, char *src, size_t size)
 	len_src = ft_strlen(src);
 	j_dest = len_dest;
 	i = 0;
-	if (size == 0)
-		return (len_src);
-	if (size < len_dest)
+	if (size == 0 || size < len_dest)
 		return (len_src + size);
 	while (src[i] != '\0' && j_dest < (size - 1))
 	{
