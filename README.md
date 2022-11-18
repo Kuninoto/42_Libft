@@ -2,7 +2,7 @@
 ## Grade: 125/100
 
 ###  Subject:
-[Libft En_Subject](https://github.com/Kuninoto/Libft/blob/master/extras/en.subject_libft.pdf)
+[Libft en_subject](https://github.com/Kuninoto/Libft/blob/master/extras/en.subject_libft.pdf)
 
 ### Installing and running the project:
 
@@ -18,7 +18,7 @@
 	make clean
 4- Compile your main.c with your new _libft.a_
 
-	gcc -Wall -Wextra -Werror main.c libft.a
+	cc -Wall -Wextra -Werror main.c libft.a
 
 #### Makefile Available Targets:  
 `make` or `make all` - Makes _libft.a_  
