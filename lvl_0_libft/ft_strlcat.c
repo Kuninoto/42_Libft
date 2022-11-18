@@ -14,13 +14,16 @@
 
 size_t	ft_strlcat(char *dest, char *src, size_t size)
 {
-	size_t	len_dest;
 	size_t	len_src;
+	size_t	len_dest;
 	size_t	j_dest;
 	size_t	i;
 
-	len_dest = ft_strlen(dest);
 	len_src = ft_strlen(src);
+	if (dest)
+		len_dest = ft_strlen(dest);
+	else
+		len_dest = 0;
 	j_dest = len_dest;
 	i = 0;
 	if (size == 0 || size < len_dest)
