@@ -11,7 +11,7 @@
 	git clone https://github.com/Kuninoto/Libft
 2- Navigate to _lvl_0_libft_ and run `make`
 	
-	cd Libft/lvl_0_libft
+	cd 42_Libft/lvl_0_libft
    	make
 3- `make clean` so that you don't keep those object files that you won't need anymore
 
