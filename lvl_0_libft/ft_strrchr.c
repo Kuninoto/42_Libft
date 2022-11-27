@@ -16,7 +16,7 @@ char	*ft_strrchr(const char *str, int c)
 {
 	int	j;
 
-	j = ft_strlen (str);
+	j = ft_strlen(str);
 	if (c == '\0')
 		return ((char *)str + j);
 	while (j >= 0)
