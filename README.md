@@ -41,6 +41,9 @@
 <img src="https://github.com/Kuninoto/Libft/blob/master/extras/unit-test_second-part.png" width="50%"/>
 <img src="https://github.com/Kuninoto/Libft/blob/master/extras/unit-test_bonus-part.png" width="50%"/>
 
+## Disclaimer
+> At [42School](https://en.wikipedia.org/wiki/42_(school)), almost every project must be written in accordance to the [Norm](.extras/en_norme.pdf)") (the schools' coding standard). As a result, the implementation of certain parts may appear strange and for sure had room for improvement.
+
 ---
 Made by Nuno Carvalho (Kuninoto) | nnuno-ca@student.42porto.com  
 <div id="badge"> <a href="https://www.linkedin.com/in/nuno-carvalho-218822247"/> <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>&nbsp;
