@@ -2,7 +2,7 @@
 ## Grade: 125/100
 
 ###  Subject:
-[Libft en_subject](https://github.com/Kuninoto/Libft/blob/master/extras/en.subject_libft.pdf)
+[Libft en_subject](./extras/en.subject_libft.pdf)
 
 ### Installing and running the project:
 
@@ -22,7 +22,7 @@
 
 #### Makefile Available Targets:  
 `make` or `make all` - Makes _libft.a_  
-`make bonus` - Makes _libft.a_ with bonus functions (see [Subject](https://github.com/Kuninoto/Libft/blob/master/extras/en.subject_libft.pdf))  
+`make bonus` - Makes _libft.a_ with bonus functions (see [Subject](./extras/en.subject_libft.pdf))  
 `make clean` - Deletes all the resulting object files  
 `make fclean` - Deletes _libft.a_ and all the resulting object files  
 `make re` - Deletes everything (object files and _libft.a_) and rebuilds _libft.a_
@@ -42,7 +42,7 @@
 <img src="https://github.com/Kuninoto/Libft/blob/master/extras/unit-test_bonus-part.png" width="50%"/>
 
 ## Disclaimer
-> At [42School](https://en.wikipedia.org/wiki/42_(school)), almost every project must be written in accordance to the [Norm](.extras/en_norme.pdf), the schools' coding standard. As a result, the implementation of certain parts may appear strange and for sure had room for improvement.
+> At [42School](https://en.wikipedia.org/wiki/42_(school)), almost every project must be written in accordance to the [Norm](./extras/en_norme.pdf), the schools' coding standard. As a result, the implementation of certain parts may appear strange and for sure had room for improvement.
 
 ---
 Made by Nuno Carvalho (Kuninoto) | nnuno-ca@student.42porto.com  
