@@ -1,7 +1,7 @@
 # Libft (42Porto - 42Cursus) <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C Logo" width="55" height="55" align="right" />&nbsp;                       
 ## Grade: 125/100
 
-###  Subject: [Libft en_subject](./extras/en.subject_libft.pdf)  
+###  Subject (v15): [Libft en_subject](./extras/en.subject_libft.pdf)  
 
 ### Installing and running the project:
 
