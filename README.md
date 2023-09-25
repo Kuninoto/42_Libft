@@ -7,7 +7,7 @@
 
 1- Clone this repository
 	
-	git clone https://github.com/Kuninoto/Libft
+	git clone https://github.com/Kuninoto/42_Libft
 2- Navigate to _lvl_0_libft_ and run `make`
 	
 	cd 42_Libft/lvl_0_libft
