@@ -4,7 +4,7 @@
 
 ### Description
 
-A static C library containing utility functions and reimplementations of common [libc](https://www.gnu.org/software/libc/) functions. This library is a jumpstart the 42 school course and
+A static C library containing utility functions and reimplementations of common [libc](https://www.gnu.org/software/libc/) functions. This library is a jumpstart to the 42 school course and
 is used throughout it.  
 
 ### Installing and running the project:
